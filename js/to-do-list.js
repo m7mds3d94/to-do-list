@@ -1,11 +1,4 @@
 
-
-$(document).ready(function() {
-dataInput.focus()
-
-})
-
-
 var submitData = $(".submit-data");
 var listItem = $(".add-data");
 var dataInput = $(".data-input");
