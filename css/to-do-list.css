@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #D6CFC4;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 7px 7px 7px 7px;
+    height: 40px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E0DCDD;
+}
+
+
+body {
+    background-image: url("../lamp.jpg");
+   /* background-position: 0px; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    font-family: cursive;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+}
+.mainDolist {
+    position: relative;
+    right: 0px;
+    left: 0;
+    top: 10vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-position: 65px  -22px;
+    background-repeat: no-repeat;
+}
+
+.maindata {
+    background-color: #dcdde1;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    flex-direction: column;
+    min-height: 500px;
+    padding: 25px 15px 40px 15px;
+   background-image: url("../idea.jpg");
+   background-attachment: fixed;
+   background-position: 280px 0px;
+}
+
+.main-data-list-place {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 0px 30px;
+}
+
+.data-list-place {
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.data-input {
+    width: 70%;
+    height: 50px;
+    border-bottom: 2px dashed #7f8fa6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding: 0px 15px;
+    caret-color: #7f8fa6;
+    font-family: cursive;
+}
+.data-input:focus-visible {
+    outline: none;
+}
+
+.submit-data {
+    width: 20%;
+    height: 0px;
+    border: none;
+    background-color: transparent;
+    transform: rotate(25deg);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.list-item-place {
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    padding: 70px 0px 30px 0px;
+}
